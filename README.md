@@ -1,3 +1,21 @@
+# Facial Expression Recognition on FER2013
+
+Team project for *Numerical Analysis for Machine Learning*, Politecnico di Milano (2026),
+with Teresa Barrella.
+
+**Goal:** classify 48×48 grayscale faces into 7 emotions, comparing CNNs trained from scratch
+with transfer learning.
+
+**Method:** dataset cleaning (duplicate and train/test leakage removal), stratified split,
+targeted augmentation for the minority class, baseline and deep CNNs, fine-tuned ResNet18 and
+EfficientNet-B0, softmax-averaging ensemble.
+
+**Results:** the 6-model ensemble reaches **68.2% accuracy** (macro-F1 0.645), in line with
+human accuracy on FER2013 (65–68%). Real-time webcam demo.
+
+**Slides:** [presentation](docs/slides.pdf)
+
+---
 # Facial Expression Recognition — FER2013
 
 Project for the Numerical Analysis for Machine Learning (NAML) course.
