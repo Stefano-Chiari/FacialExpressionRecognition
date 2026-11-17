@@ -13,7 +13,7 @@ EfficientNet-B0, softmax-averaging ensemble.
 **Results:** the 6-model ensemble reaches **68.2% accuracy** (macro-F1 0.645), in line with
 human accuracy on FER2013 (65–68%). Real-time webcam demo.
 
-**Slides:** [presentation](docs/slides.pdf)
+**Slides:** [presentation on Canva](https://canva.link/3zukiodvtmtaa75)
 
 ---
 # Facial Expression Recognition — FER2013
